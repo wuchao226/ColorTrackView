@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+
+  <com.wuc.colortrackview.ColorTrackTextView
+    android:id="@+id/color_track_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ColorTrackTextView"
+    android:textSize="20sp"
+    app:changeColor="@color/teal_200" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="leftToRight"
+    android:text="左到右" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="rightToLeft"
+    android:text="右到左" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="indicatorView"
+    android:text="指示器" />
+</LinearLayout>

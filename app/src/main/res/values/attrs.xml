@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="ColorTrackTextView">
+    <!-- 初始的颜色 -->
+    <attr name="originColor" format="color" />
+    <!-- 改变的颜色  -->
+    <attr name="changeColor" format="color" />
+  </declare-styleable>
+</resources>
