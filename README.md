@@ -4,3 +4,4 @@
 
 ### 效果图
 ![](https://github.com/wuchao226/ColorTrackView/blob/master/images/preview.gif)
+
